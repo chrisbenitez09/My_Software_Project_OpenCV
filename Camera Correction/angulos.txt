@@ -1,0 +1,22 @@
+'''def Angle_Calculator(a, b, c):
+    a = np.array(a)  #FIRST ANGLE
+    b = np.array(b)  #SECOND ANGLE
+    c = np.array(c)  #THIRD ANGLE
+
+    radians = np.arctan2(c[1]-b[1], c[0]-b[0]) - np.arctan2(a[1]-b[1], a[0]-b[0])
+    angle = np.abs(radians*180/np.pi)
+
+    if angle > 180:
+        angle = 360 - angle
+    return angle'''      
+
+
+
+
+#CALCULATE ANGLE
+ '''angle = Angle_Calculator(right_shoulder, left_shoulder, face)'''
+
+  #Calculate Angles
+  '''cv2.putText(img, str(angle),
+      tuple(np.multiply(face, [640, 480]).astype(int)),
+      cv2.FONT_HERSHEY_SIM, 0.5, (255, 255, 255), 2, cv2.LINE_AAA)'''
